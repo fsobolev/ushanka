@@ -20,6 +20,9 @@ wget -P /tmp/rpms \
     https://mirrors.rpmfusion.org/free/fedora/rpmfusion-free-release-${RELEASE}.noarch.rpm \
     https://mirrors.rpmfusion.org/nonfree/fedora/rpmfusion-nonfree-release-${RELEASE}.noarch.rpm
 
+wget -P /etc/yum.repos.d \
+    https://copr.fedorainfracloud.org/coprs/nickavem/adw-gtk3/repo/fedora-38/nickavem-adw-gtk3-fedora-${RELEASE}.repo
+
 rpm-ostree install \
     /tmp/rpms/*.rpm \
     fedora-repos-archive

@@ -21,7 +21,9 @@
                 "dotnet-sdk-7.0",
                 "dotnet-runtime-7.0",
                 "blueprint-compiler",
-                "glib2-devel"
+                "glib2-devel",
+                "gettext",
+                "adw-gtk3"
             ],
             "silverblue": [
                 "ffmpegthumbnailer",
@@ -46,7 +48,9 @@
             ],
             "silverblue": [
                 "gnome-shell-extension-background-logo",
-                "totem-video-thumbnailer"
+                "totem-video-thumbnailer",
+                "gnome-terminal",
+                "gnome-terminal-nautilus"
             ]
         }
     },
