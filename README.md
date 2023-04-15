@@ -4,6 +4,8 @@ Custom Fedora Silverblue image</p>
 
 <br/>
 
+[![build-ushanka](https://github.com/fsobolev/ushanka/actions/workflows/build.yml/badge.svg)](https://github.com/fsobolev/ushanka/actions/workflows/build.yml)
+
 Many thanks to [Universal Blue](https://github.com/ublue-os) project for providing a way to create custom Silverblue images. Most of files in this repo are from [ublue-os/main](https://github.com/ublue-os/main) (some are slightly modified).
 
 List of changes (compared to ublue-main):

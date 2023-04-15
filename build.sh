@@ -27,6 +27,8 @@ rpm-ostree install \
     /tmp/rpms/*.rpm \
     fedora-repos-archive
 
+sed -i '5s/enabled=0/enabled=1/' /etc/yum.repos.d/fedora-updates-testing.repo
+
 if [[ "${#INCLUDED_PACKAGES[@]}" -gt 0 && "${#EXCLUDED_PACKAGES[@]}" -eq 0 ]]; then
     rpm-ostree install \
         ${INCLUDED_PACKAGES[@]}
