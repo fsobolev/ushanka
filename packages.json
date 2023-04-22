@@ -23,13 +23,15 @@
                 "blueprint-compiler",
                 "glib2-devel",
                 "gettext",
-                "adw-gtk3"
+                "itstool",
+                "micro"
             ],
             "silverblue": [
                 "ffmpegthumbnailer",
                 "gnome-tweaks",
                 "gnome-console",
-                "nautilus-python"
+                "nautilus-python",
+                "adw-gtk3"
             ]
         },
         "exclude": {
