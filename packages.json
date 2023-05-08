@@ -24,7 +24,8 @@
                 "glib2-devel",
                 "gettext",
                 "itstool",
-                "micro"
+                "micro",
+                "waydroid"
             ],
             "silverblue": [
                 "ffmpegthumbnailer",
