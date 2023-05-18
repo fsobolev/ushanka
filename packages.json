@@ -2,7 +2,7 @@
     "all": {
         "include": {
             "all": [
-                "adw-gtk3",
+                "adw-gtk3-theme",
                 "apr",
                 "apr-util",
                 "distrobox",
