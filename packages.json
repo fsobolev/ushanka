@@ -2,11 +2,15 @@
     "all": {
         "include": {
             "all": [
+                "adw-gtk3",
                 "apr",
                 "apr-util",
                 "distrobox",
                 "ffmpeg",
+                "ffmpegthumbnailer",
                 "ffmpeg-libs",
+                "gnome-console",
+                "gnome-tweaks",
                 "intel-media-driver",
                 "just",
                 "kernel-devel-matched",
@@ -14,29 +18,32 @@
                 "libva-intel-driver",
                 "libva-utils",
                 "mesa-va-drivers-freeworld",
+                "micro",
+                "nautilus-python",
+                "openrgb-udev-rules",
                 "openssl",
                 "pipewire-codec-aptx",
                 "smartmontools",
-                "zstd",
-                "dotnet-sdk-7.0",
-                "dotnet-runtime-7.0",
-                "blueprint-compiler",
-                "glib2-devel",
-                "gettext",
-                "itstool",
-                "micro",
-                "waydroid"
+                "waydroid",
+                "zstd"
             ],
-            "silverblue": [
-                "ffmpegthumbnailer",
-                "gnome-tweaks",
-                "gnome-console",
-                "nautilus-python",
-                "adw-gtk3"
+            "orangeblue": [
+                "blueprint-compiler",
+                "code",
+                "gettext",
+                "glib2-devel",
+                "itstool",
+                "dotnet-runtime-7.0",
+                "dotnet-sdk-7.0"
             ]
         },
         "exclude": {
             "all": [
+                "firefox",
+                "firefox-langpacks",
+                "gnome-shell-extension-background-logo",
+                "gnome-terminal",
+                "gnome-terminal-nautilus",
                 "libavcodec-free",
                 "libavdevice-free",
                 "libavfilter-free",
@@ -46,14 +53,7 @@
                 "libswresample-free",
                 "libswscale-free",
                 "mesa-va-drivers",
-                "firefox",
-                "firefox-langpacks"
-            ],
-            "silverblue": [
-                "gnome-shell-extension-background-logo",
-                "totem-video-thumbnailer",
-                "gnome-terminal",
-                "gnome-terminal-nautilus"
+                "totem-video-thumbnailer"
             ]
         }
     },

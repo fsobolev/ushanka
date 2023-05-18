@@ -20,12 +20,12 @@ wget -P /tmp/rpms \
     https://mirrors.rpmfusion.org/free/fedora/rpmfusion-free-release-${RELEASE}.noarch.rpm \
     https://mirrors.rpmfusion.org/nonfree/fedora/rpmfusion-nonfree-release-${RELEASE}.noarch.rpm
 
-wget -P /etc/yum.repos.d \
-    https://copr.fedorainfracloud.org/coprs/nickavem/adw-gtk3/repo/fedora-38/nickavem-adw-gtk3-fedora-${RELEASE}.repo
-
 rpm-ostree install \
     /tmp/rpms/*.rpm \
     fedora-repos-archive
+
+rpm --import https://packages.microsoft.com/keys/microsoft.asc
+sh -c 'echo -e "[code]\nname=Visual Studio Code\nbaseurl=https://packages.microsoft.com/yumrepos/vscode\nenabled=1\ngpgcheck=1\ngpgkey=https://packages.microsoft.com/keys/microsoft.asc" > /etc/yum.repos.d/vscode.repo'
 
 if [[ "${#INCLUDED_PACKAGES[@]}" -gt 0 && "${#EXCLUDED_PACKAGES[@]}" -eq 0 ]]; then
     rpm-ostree install \
