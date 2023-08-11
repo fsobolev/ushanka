@@ -27,6 +27,13 @@
                 "waydroid",
                 "zstd"
             ],
+            "kinoite": [
+                "icoutils",
+                "kate",
+                "kcron",
+                "kio-admin",
+                "ksshaskpass"
+            ],
             "orangeblue": [
                 "blueprint-compiler",
                 "code",
@@ -55,14 +62,6 @@
                 "mesa-va-drivers",
                 "totem-video-thumbnailer"
             ]
-        }
-    },
-    "37": {
-        "include": {
-            "all": []
-        },
-        "exclude": {
-            "all": []
         }
     },
     "38": {
