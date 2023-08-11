@@ -2,15 +2,20 @@
     "all": {
         "include": {
             "all": [
+                "alsa-firmware",
                 "apr",
                 "apr-util",
                 "distrobox",
                 "ffmpeg",
                 "ffmpegthumbnailer",
                 "ffmpeg-libs",
+                "heif-pixbuf-loader",
                 "intel-media-driver",
                 "just",
                 "kernel-devel-matched",
+                "kernel-tools",
+                "libheif-freeworld",
+                "libheif-tools",
                 "libratbag-ratbagd",
                 "libva-intel-driver",
                 "libva-utils",
@@ -19,9 +24,12 @@
                 "openrgb-udev-rules",
                 "openssl",
                 "pipewire-codec-aptx",
+                "podman-compose",
                 "smartmontools",
+                "symlinks",
                 "waydroid",
-                "zstd"
+                "zstd",
+                "wireguard-tools"
             ],
             "silverblue": [
                 "adw-gtk3-theme",
