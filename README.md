@@ -8,8 +8,8 @@ Custom Fedora Silverblue images</p>
 
 Many thanks to [Universal Blue](https://github.com/ublue-os) project for providing a way to create custom Silverblue images. Most of files in this repo are from [ublue-os/main](https://github.com/ublue-os/main) (some are slightly modified).
 
-* `silverblue` image is close to ublue/silberlue-main, some packages were removed, a couple of packages added, including Waydroid
-* `orangeblue` image also contains additional development tools
+* `silverblue` and `kinoite` images are close to ublue images, some packages were removed, a couple of packages added, including Waydroid
+* `orangeblue` image is based on `silverblue` but also contains additional development tools
 
 These images are created for my personal needs, but feel free to use them if they fit yours :blush:
 
