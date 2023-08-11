@@ -2,15 +2,12 @@
     "all": {
         "include": {
             "all": [
-                "adw-gtk3-theme",
                 "apr",
                 "apr-util",
                 "distrobox",
                 "ffmpeg",
                 "ffmpegthumbnailer",
                 "ffmpeg-libs",
-                "gnome-console",
-                "gnome-tweaks",
                 "intel-media-driver",
                 "just",
                 "kernel-devel-matched",
@@ -19,13 +16,18 @@
                 "libva-utils",
                 "mesa-va-drivers-freeworld",
                 "micro",
-                "nautilus-python",
                 "openrgb-udev-rules",
                 "openssl",
                 "pipewire-codec-aptx",
                 "smartmontools",
                 "waydroid",
                 "zstd"
+            ],
+            "silverblue": [
+                "adw-gtk3-theme",
+                "gnome-console",
+                "gnome-tweaks",
+                "nautilus-python"
             ],
             "kinoite": [
                 "icoutils",
@@ -35,13 +37,17 @@
                 "ksshaskpass"
             ],
             "orangeblue": [
+                "adw-gtk3-theme",
                 "blueprint-compiler",
                 "code",
+                "dotnet-runtime-7.0",
+                "dotnet-sdk-7.0",
                 "gettext",
                 "glib2-devel",
+                "gnome-console",
+                "gnome-tweaks",
                 "itstool",
-                "dotnet-runtime-7.0",
-                "dotnet-sdk-7.0"
+                "nautilus-python"
             ]
         },
         "exclude": {
